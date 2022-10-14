@@ -14,26 +14,30 @@
 <body>
     <header>
         <div class="nav_logo">Kim BoYoon</div>
-        <div class="nav_menu">
-            <ul class="nav_menuList">
-                <li><a href="#">Home</a></li>
-                <li><a href="#aboutId">About</a></li>
-                <li><a href="#goalId">Goal</a></li>
-                <li><a href="#projectId">Project</a></li>
-            </ul>
-        </div>
+        
+        <ul class="nav_menuList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#aboutId">About</a></li>
+            <li><a href="#goalId">Goal</a></li>
+            <li><a href="#projectId">Project</a></li>
+        </ul>
+        
         <div class="nav_contact">
             <a href="mailto:kimboyoon0908@gmail.com"><i class="fa-regular fa-envelope"></i></a>
             <a href="https://github.com/kimboyoon" target="_blank"><i class="fa-brands fa-github"></i></a>
             <a href=""><i class="fa-brands fa-blogger-b"></i></a>
         </div>
+
+        <a class="toggleBtn">
+            <i class="fa-solid fa-bars"></i>
+        </a>
     </header>
 
     <main>
         <div class="container">
             <section class="intro_section">
                 <div class="intro_text">
-                    <h1>안녕하세요 김보윤입니다</h1> <br><br>
+                    <span class="type"></span><span class="blink">|</span>
                     <h3>저에 대해 궁금하시면 스크롤을 내려주세요</h3>
                 </div>
             </section>
@@ -67,7 +71,7 @@
                     <p>그래서 내가 상상하던 것들을 직접 그려내고 구현하는,</p>
                     <p>"개발자"라는 직업에 도전하게 되었습니다.</p><br>
                     <p>저는 wecode를 통해서</p>
-                    <span>"같이 일하고 싶은 FrontEnd 개발자"</span> 
+                    <span class="myGoal">"같이 일하고 싶은 FrontEnd 개발자"</span> 
                     <p>로 성장하고 싶습니다.</p>
                 </div>
             </section>
